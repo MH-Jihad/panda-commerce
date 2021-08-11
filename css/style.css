@@ -1,0 +1,67 @@
+
+/* font inter and poppins */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@400;600&display=swap');
+
+/* font family 
+font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif;
+ */
+
+ img{
+     width: 100%;
+ }
+ .button{
+     background: linear-gradient(#FF5096,#FF2379);
+     padding: 10px 20px;
+     border-radius: 6px;
+     border: none;
+     color: white;
+     font-family: 'inter', sans-serif;
+     font-weight: 500;
+ }
+/* design start  */
+
+header u li a{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+form{
+    position: relative;
+    border-radius: 50px;
+}
+form button{
+    position: absolute;
+    right: 0;
+}
+@media (min-width:1200px) {
+    form{
+        max-width: 508px;
+        width: 100%;
+    }
+}
+
+/* ==========
+banner design 
+ ===========*/
+ .slider{
+     background-color: #FEEAE9;
+     border-radius: 20px;
+     margin-top: 63px;
+ }
+ .slider-text{
+     padding-left: 46px;
+ }
+ .slider h1{
+     font-family: 'poppins', sans-serif;
+     font-size: 56px;
+     line-height: 84px;
+     font-weight: 700;
+ }
+ .slider p{
+    color: #4E4E4E;
+    font-size: 16px;
+    font-family: 'inter', sans-serif;
+ }
+ .slider img{
+    padding: 38px 63px 38px 0px;
+ }
