@@ -8,7 +8,7 @@ font-family: 'Poppins', sans-serif;
  */
 
  img{
-     width: 100%;
+     max-width: 100%;
  }
  .button{
      background: linear-gradient(#FF5096,#FF2379);
@@ -65,3 +65,140 @@ banner design
  .slider img{
     padding: 38px 63px 38px 0px;
  }
+ /* ======
+ siled end 
+ ======== */
+ /* categories start  */
+ .catagories{
+     margin-top: 64px;
+     
+ }
+ .catagories h2{
+     font-family: 'poppins',sans-serif;
+     font-size: 36px;
+     font-weight: 600;
+     line-height: 54px;
+     margin-bottom: 24px;
+ }
+ .item{
+     border-radius: 30px;
+ }
+ .watch{
+    background:linear-gradient(#FFA132,#FFB528) ;
+ }
+ .bag{
+    background:linear-gradient(#FF2379,#FF4E95) ;
+ }
+ .shoes{
+    background:linear-gradient(#426CFE,#3F0DF8) ;
+ }
+ .item h2{
+     padding: 33px 46px;
+ }
+ .item img{
+    width: 68px;
+    height: 90px;
+    object-fit: cover;
+}
+/* actegories end  */
+
+
+/*======================
+ categorie-shoes start 
+====================== */
+.categorie-shoes{
+    margin-top: 64px;
+}
+.categorie-shoes h2{
+    font-family: 'poppins',sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    margin-bottom: 24px;
+}
+.shoes-item{
+    box-shadow: 5px 5px 10px gray;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+.shoes-item h2{
+    font-size: 24px;
+    font-family: 'poppins',sans-serif;
+    font-weight: 600;
+    line-height: 36px;
+}
+.shoes-item p{
+    font-family: 'inter',sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #4E4E4E;
+    padding: 0px 26px;
+}
+.shoes-item h6{
+    font-family: 'poppins',sans-serif;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 500;
+}
+.shoes-item button{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 7px 10px;
+}
+
+/*======================
+ shoes categories end 
+====================== */
+
+/*========================
+ bag categories start 
+======================= */
+.bag-categories{
+    margin-top: 88px;
+}
+.bag-categories h2{
+    font-family: 'poppins',sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    margin-bottom: 24px;
+}
+.bag-item{
+    box-shadow: 5px 5px 10px gray;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+.bag-item h2{
+    font-size: 24px;
+    font-family: 'poppins',sans-serif;
+    font-weight: 600;
+    line-height: 36px;
+    margin-top: 22px;
+}
+.bag-item p{
+    font-family: 'inter',sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #4E4E4E;
+    padding: 0px 26px;
+}
+.bag-item h6{
+    font-family: 'poppins',sans-serif;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 500;
+}
+.bag-item button{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 7px 10px;
+}
+
