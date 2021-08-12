@@ -201,4 +201,42 @@ banner design
     border: none;
     padding: 7px 10px;
 }
+/* ==========
+   bags end 
+========== */
+.contact{
+    margin-top: 71px;
+    margin-bottom: 35px;
+}
+.contact-element h2{
+    font-size: 30px;
+    line-height: 45px;
+    font-family: 'poppins',sans-serif;
+    font-weight: 600;
+}
+.contact-element p{
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'poppins',sans-serif;
+    font-weight: 500;
+}
+.contact-element form{
+    position: relative;
+   
+}
+.contact-element input{
+    padding: 10px 0px;
+    border: none;
+    max-width: 683px;
+    width: 100%;
+}
+.contact-element button{
+    position: absolute;
+    right: 0;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(#FF4790,#FF2379);
+    color: white;
+}
 
